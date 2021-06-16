@@ -1,0 +1,42 @@
+body {
+    font-size: 14px;
+}
+
+.blog-masthead {
+    background-color: #b34848;
+}
+
+
+
+.wrap-form {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+.form-div {
+    position: absolute;
+    left: 200px;
+    margin-left: 15px;
+}
+
+.btn-button {
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    left: 75px;
+}
+
+.list-comment {
+    border: .5px solid #b34848;
+    padding: 5px;
+    margin-right: 300px;
+}
+
+.error-msg {
+    font-size: 20px;
+    color: red;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #b34848!important;
+}
